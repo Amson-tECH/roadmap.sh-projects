@@ -1,73 +1,152 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #3871b1;
-  color: #333;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-.container {
-  background: white;
-  padding: 2rem;
-  border: 2px solid #ddd;
-  border-radius: 15px;
-  max-width: 500px;
-  height: 600px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-  text-align: center;
-}
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f5f5f5;
+            padding: 40px 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-h1 {
-  margin-bottom: 0.5rem;
-}
+        .changelog-container {
+            background: white;
+            border-radius: 24px;
+            padding: 48px 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e5e5e5;
+            position: relative;
+        }
 
-.subtitle {
-  color: gray;
-  margin-bottom: 2rem;
-}
+        .changelog-header {
+            text-align: center;
+            margin-bottom: 48px;
+        }
 
-.timeline {
-  position: relative;
-  margin: 2rem 0;
-  border-left: 2px solid #000;
-}
+        .changelog-title {
+            font-size: 32px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+        }
 
-.timeline-item {
-  position: relative;
-  padding-left: 2rem;
-  margin-bottom: 2rem;
-  text-align: left;
-}
+        .changelog-subtitle {
+            font-size: 16px;
+            color: #666;
+            font-weight: 400;
+        }
 
-.date {
-  color: gray;
-  font-size: 0.9rem;
-  display: block;
-}
+        .timeline {
+            position: relative;
+            padding: 0 20px;
+        }
 
-.dot {
-  position: absolute;
-  left: -8px;
-  top: 5px;
-  width: 12px;
-  height: 12px;
-  background: black;
-  border-radius: 50%;
-}
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #e5e5e5;
+            transform: translateX(-50%);
+        }
 
-.text {
-  margin: 0.3rem 0 0;
-  font-weight: 500;
-}
+        .timeline-item {
+            position: relative;
+            padding: 24px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
 
-.btn {
-  background: black;
-  color: white;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  border-radius: 10px;
-  cursor: pointer;
-  font-size: 1rem;
-}
+        .timeline-item:not(:last-child) {
+            margin-bottom: 8px;
+        }
+
+        .timeline-date {
+            flex: 1;
+            text-align: right;
+            padding-right: 32px;
+            font-size: 14px;
+            color: #999;
+            font-weight: 400;
+        }
+
+        .timeline-dot {
+            width: 12px;
+            height: 12px;
+            background: #1a1a1a;
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 2;
+        }
+
+        .timeline-content {
+            flex: 1;
+            padding-left: 32px;
+            font-size: 16px;
+            color: #1a1a1a;
+            font-weight: 500;
+            line-height: 1.4;
+        }
+
+        .visit-btn {
+            margin-top: 48px;
+            text-align: center;
+        }
+
+        .visit-btn button {
+            background: #1a1a1a;
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 12px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .visit-btn button:hover {
+            background: #333;
+            transform: translateY(-1px);
+        }
+
+        .visit-btn button:active {
+            transform: translateY(0);
+        }
+
+        @media (max-width: 640px) {
+            .changelog-container {
+                padding: 32px 24px;
+                border-radius: 16px;
+            }
+            
+            .changelog-title {
+                font-size: 28px;
+            }
+            
+            .timeline {
+                padding: 0 12px;
+            }
+            
+            .timeline-date {
+                padding-right: 20px;
+                font-size: 13px;
+            }
+            
+            .timeline-content {
+                padding-left: 20px;
+                font-size: 15px;
+            }
+        }
