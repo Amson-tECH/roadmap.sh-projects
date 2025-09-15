@@ -11,7 +11,7 @@ Click the image below to view the readme and live demo of the project.
 
 <p align="left">
   <a href='/Frontend Projects/04-changelog-component/'>
-    <img width="48%" src="" alt="changelog component" />
+    <img width="48%" src="frontend-projects/changelog/screenshots/lightmode.png" alt="changelog component" />
   </a>
 </p>
 
@@ -176,6 +176,7 @@ This project is licensed under the MIT License - see individual project reposito
 ⭐ **Star this repository if you find these projects helpful!**
 
 *Following roadmap.sh to become a better frontend developer, one project at a time.*
+
 
 
 
