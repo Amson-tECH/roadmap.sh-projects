@@ -1,18 +1,20 @@
 # Front-end Projects from Roadmap.sh
 
-This repository contains front-end projects built following the [roadmap.sh](https://roadmap.sh/) front-end developer path.
+This repository contains front-end projects built following the [roadmap.sh](https://roadmap.sh/frontend/projects) front-end developer path.
+
 
 
 
 ## Project List.
-[Changelog Component](frontend-projects/changelog),
+[Changelog Component](https://roadmap.sh/projects/changelog-component),
 
 
 
 
 
 
-## Click the image below to view the readme and live demo of the project.
+
+## Click the image below to view the README and live demo of the project.
 
 <p align="left">
   <a href='frontend-projects/changelog'>
@@ -30,6 +32,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 
 ⭐ **Star this repository if you find these projects helpful!**
+
 
 
 
