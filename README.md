@@ -5,7 +5,8 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 
 ## Project List.
-[Changelog Component](https://roadmap.sh/projects/changelog-component),
+[Changelog Component](frontend-projects/changelog),
+
 
 
 
@@ -24,11 +25,12 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 
 - **GitHub**: [@your-username](https://github.com/Amson-tECH)
 - **LinkedIn**: [Reuben Korsi Amuzu](https://linkedin.com/in/your-profile)
-- **Email**: your.email@example.com
+- **Email**: reubenamuzu23@gmail.com
 
 
 
 ⭐ **Star this repository if you find these projects helpful!**
+
 
 
 
