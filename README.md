@@ -10,7 +10,7 @@ This repository contains front-end projects built following the [roadmap.sh](htt
 Click the image below to view the readme and live demo of the project.
 
 <p align="left">
-  <a href='/Frontend Projects/04-changelog-component/'>
+  <a href='frontend-projects/changelog'>
     <img width="48%" src="frontend-projects/changelog" alt="changelog component" />
   </a>
 </p>
@@ -176,6 +176,7 @@ This project is licensed under the MIT License - see individual project reposito
 ⭐ **Star this repository if you find these projects helpful!**
 
 *Following roadmap.sh to become a better frontend developer, one project at a time.*
+
 
 
 
